@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<title>My First HTML Page</title>
+<meta name="viewport content="width=device-width,initial-scale=1.0">
+<style>
+*{
+margin:0;
+font-family:Tahoma;
+}
+img{
+max-width:100%;
+}
+.wrap{
+}
+.img{
+border-radius:50%;
+width:100px;
+}
+.row1,.row2,.row6,.row7,.wrap{
+background-color:#a1a1a1;
+}
+.row3,.row4,.row5,.row8,.wrap{
+background-color:#ccc
+}
+.row1,.row7{
+width:80%;
+margin:0 auto;
+display:grid;
+grid-templete-columns:auto auto;
+grid-gap:20px;
+}
+.row4,.row5{
+width:80%
+margin:0 auto;
+display:grid;
+grid-templete-columns:auto auto auto;
+grid-gap:20px;
+padding-bottom:30px;
+}
+.bgwhite{
+background-color:#fff;
+}
+.bgblack{
+background-color:#000;
+color:#fff;
+}
+.alignright{
+text-align:right;
+}
+.aligncentre{
+text-align:centre;
+}
+.row1,.pad20{
+padding:20px;
+}
+.row2 a{
+background-color:#000;
+color:#fff;
+padding:10px 15px;
+text-decoration:none;
+}
+@media only screen and
+(max-width:576px){
+.row1,.row7,.row4,.row5{
+grid-template-columns:auto;
+}
+.row1 div,.row7 div{
+text-align:centre;
+}
+.row7 div ul{
+text-align:left;
+}
+}
+</style>
+</head>
+<body>
+<div class="wrap1">
+<div class="row1">
+<div><img src="tanisha.jpg" class="img"></div>
+<div class="alignright pad20">
+<h4>Tanisha</h4>
+<p>Web Developer<br>Ethical Hacker</p>
+</div>
+</div>
+</div>
+<div class="wrap">
+<div class="row2 aligncentre pad20>
+<a href="">Projects</a>
+<a href="">About</a>
+<a href="">Contact</a>
+</div>
+</div>
+<div class="wrap">
+<div class="row3 algincentre pad20">
+<h2>Project/Experience</h2>
+</div>
+</div>
+<div class="wrap2">
+<div class="row4">
+<div>
+<img src="">
+<p>Project Title1</p>
+<p>Project Description1</p>
+</div>
+<div>
+<img src="">
+<p>Project Title1</p>
+<p>Project Description1</p>
+</div>
+</div>
+</div>
+<div class="wrap">
+<div class="row6 aligncentre pad20">
+<h2>About Me</h2>
+</div>
+</div>
+<div class="wrap1">
+<div class="row7">
+<div class="bgwhite pad20">
+<h4 class="aligncentre">Personal Details</h4>
+<ul>
+<li>Tanisha</li>
+<li>DOB:28/10/2020</li>
+<li>PHONE:9685551682</li>
+<li>STATUS:single</li>
+
+</ul>
+</div>
+<div class="bgblack pad20">
+<h4 class="aligncentre">skill</h4>
+<ul>
+<li>JavaScript</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>React</li>
+<li>Web Developer</li>
+<li>Cyber Security</li>
+<li>C programming</li>
+<li>Cpp Programming</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="wrap">
+<div class="row8 aligncentre pad20">&copy; Copyright 2020.</div>
+</div>
+</body>
+</html>
